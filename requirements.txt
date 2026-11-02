@@ -1,0 +1,20 @@
+# Python 3.12. Versions pinned so the environment rebuilds the same way every time.
+# To upgrade, bump a version here, reinstall, and re-run the notebook.
+
+# agent core
+langgraph==0.6.11
+langgraph-checkpoint-sqlite==2.0.11
+langchain-openai==0.3.35
+langchain-core==0.3.86
+pydantic==2.13.5
+
+# tools
+tavily-python==0.8.5
+httpx==0.28.1
+beautifulsoup4==4.15.0
+python-dotenv==1.2.4
+
+# notebook and extras
+jupyter==1.1.1
+gradio==6.31.0
+grandalf==0.8

@@ -1,0 +1,18 @@
+# API keys: never upload
+.env
+
+# Personal notes, not part of the project
+CHANGELOG.md
+
+# Python environment (large, specific to this computer)
+.venv/
+__pycache__/
+
+# Run history and saved maps, created by the agent
+*.db
+*.db-shm
+*.db-wal
+
+# Editor and OS files
+.ipynb_checkpoints/
+.DS_Store
